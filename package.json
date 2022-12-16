@@ -1,13 +1,13 @@
 {
   "name": "hex-to-css-filter-library-with-db",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "1.0.0",
   "author": {
     "name": "Blake Gearin",
     "email": "blakegearin@pm.me",
     "url": "https://blakegearin.com"
   },
   "license": "MIT",
-  "description": "A JavaScript library to access to a database of CSS filters to change HTML elements to any hex color code.",
+  "description": "A JavaScript library to access to a local database of CSS filters to change HTML elements to any hex color code.",
   "homepage": "https://github.com/blakegearin/hex-to-css-filter-library-with-db",
   "repository": {
     "type": "git",
