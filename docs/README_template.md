@@ -1,9 +1,9 @@
 [![npm version](https://badge.fury.io/js/hex-to-css-filter-library-with-db.svg)](http://badge.fury.io/js/hex-to-css-filter)
 ![Tests](https://img.shields.io/badge/tests-mocha-brightgreen)
-![Statements](https://img.shields.io/badge/statements-100%25-brightgreen.svg?style=flat)
-![Branches](https://img.shields.io/badge/branches-100%25-brightgreen.svg?style=flat)
-![Functions](https://img.shields.io/badge/functions-100%25-brightgreen.svg?style=flat)
-![Lines](https://img.shields.io/badge/lines-100%25-brightgreen.svg?style=flat)
+![Statements](https://img.shields.io/badge/statements-0%25-red.svg?style=flat)
+![Branches](https://img.shields.io/badge/branches-0%25-red.svg?style=flat)
+![Functions](https://img.shields.io/badge/functions-0%25-red.svg?style=flat)
+![Lines](https://img.shields.io/badge/lines-0%25-red.svg?style=flat)
 [![javascript style guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![MIT License](https://img.shields.io/badge/license-MIT%20License-blue.svg)](LICENSE)
 
@@ -142,22 +142,3 @@ Field|Type|Description
 For reference: [SQLite datatypes](https://www.sqlite.org/datatype3.html)
 
 ### Loss Statistics
-
-Average|Max|Min|0%|0.0%|0.1%|0.2%|0.3%|0.4%|0.5%|0.6%|0.7%|0.8%|0.9%|Total
--------|---|---|--|----|----|----|----|----|----|----|----|----|----|-----
-0.40267|0.99999|0|8|1,233,492|2,944,170|3,259,251|2,388,299|1,716,667|1,323,179|1,106,540|987,981|920,722|896,907|16,777,216
-
-```mermaid
-pie showData
-"0% loss" : 8
-"0.0% loss" : 1233492
-"0.1% loss" : 2944170
-"0.2% loss" : 3259251
-"0.3% loss" : 2388299
-"0.4% loss" : 1716667
-"0.5% loss" : 1323179
-"0.6% loss" : 1106540
-"0.7% loss" : 987981
-"0.8% loss" : 920722
-"0.9% loss" : 896907
-```

@@ -1,0 +1,55 @@
+{
+  "name": "hex-to-css-filter-library-with-db",
+  "version": "1.0.0-SNAPSHOT",
+  "author": {
+    "name": "Blake Gearin",
+    "email": "blakegearin@pm.me",
+    "url": "https://blakegearin.com"
+  },
+  "license": "MIT",
+  "description": "A JavaScript library to access to a database of CSS filters to change HTML elements to any hex color code.",
+  "homepage": "https://github.com/blakegearin/hex-to-css-filter-library-with-db",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakegearin/hex-to-css-filter-library-with-db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blakegearin/hex-to-css-filter-library-with-db/issues"
+  },
+  "keywords": [
+    "hex-to-css-filter-library-with-db",
+    "hex",
+    "css",
+    "filter",
+    "library",
+    "color",
+    "database",
+    "convert"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "readme": "node docs/generate_readme.js && npm run --silent make-badges",
+    "test": "c8 mocha --recursive './test/*.spec.js' --require esm && npm run --silent make-badges",
+    "make-badges": "c8 report --reporter=json-summary && istanbul-badges-readme --silent",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.0.1"
+  },
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "istanbul-badges-readme": "^1.8.4",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.1",
+    "standard": "^17.0.0"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ]
+  }
+}
