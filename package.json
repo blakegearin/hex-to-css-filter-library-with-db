@@ -7,7 +7,7 @@
     "url": "https://blakegearin.com"
   },
   "license": "MIT",
-  "description": "A JavaScript library to access to a local database of CSS filters to change HTML elements to any hex color code.",
+  "description": "A JavaScript library to access a local database of CSS filters to change HTML elements to any hex color code.",
   "homepage": "https://github.com/blakegearin/hex-to-css-filter-library-with-db",
   "repository": {
     "type": "git",

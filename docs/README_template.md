@@ -1,4 +1,3 @@
-[![npm version](https://badge.fury.io/js/hex-to-css-filter-library-with-db.svg)](http://badge.fury.io/js/hex-to-css-filter)
 ![Tests](https://img.shields.io/badge/tests-mocha-brightgreen)
 ![Statements](https://img.shields.io/badge/statements-0%25-red.svg?style=flat)
 ![Branches](https://img.shields.io/badge/branches-0%25-red.svg?style=flat)
@@ -9,14 +8,14 @@
 
 # hex-to-css-filter-library-with-db
 
-A JavaScript library to access a [local database](data/hex-to-css-filter-db.sqlite3) of CSS filters to change HTML elements to any hex color code.
+A JavaScript library to access a [local database](data/hex-to-css-filter-db.sqlite3) of CSS filters to change HTML elements to any hex color code. Not published on NPM due to size.
 
 ## Usage
 
 1. Install the dependency
 
-   - NPM: `npm install hex-to-css-filter-library-with-db`
-   - Yarn: `yarn add hex-to-css-filter-library-with-db`
+   - NPM: `npm install https://github.com/blakegearin/hex-to-css-filter-library-with-db#1.0.1`
+   - Yarn: `yarn add https://github.com/blakegearin/hex-to-css-filter-library-with-db#1.0.1`
 
 1. Add the dependency into your file
 
