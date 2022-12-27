@@ -8,7 +8,7 @@
 
 # hex-to-css-filter-library-with-db
 
-A JavaScript library to access a [local database](data/hex-to-css-filter-db.sqlite3) of CSS filters to change HTML elements to any hex color code. Not published on NPM due to size.
+A JavaScript library to access a [local database](data/hex-to-css-filter-db.sqlite3) of CSS filters to change HTML elements to any hex color code. Not published on NPM due to size. Also mirrored on [GitLab](https://gitlab.com/blakegearin/hex-to-css-filter-library-with-db) in case of bandwidth limits.
 
 ## Usage
 
